@@ -1,0 +1,37 @@
+{
+  "Standard template for OIer using Cpp": {
+    "scope": "c,cpp,c++,C,CXX",
+    "prefix": "oicpp",
+    "body": [
+      "// ### Include Libraries",
+      "// #include <bits/stdc++.h>",
+      "$1",
+      "",
+      "// ### Constant Variables",
+      "$2",
+      "",
+      "// ### Definitions on Stack",
+      "$3",
+      "",
+      "void init(void) {",
+      "  $4",
+      "}",
+      "",
+      "void input(void) {}",
+      "",
+      "void process(void) {}",
+      "",
+      "void output(void) {}",
+      "",
+      "int main(void) {",
+      "  init();",
+      "  input();",
+      "  process();",
+      "  output();",
+      "  return 0;",
+      "}",
+      ""
+    ],
+    "description": "Standard template for OIer using Cpp"
+  }
+}
